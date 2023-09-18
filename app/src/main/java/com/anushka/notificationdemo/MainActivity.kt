@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val notification = NotificationCompat.Builder(this@MainActivity,channelID)
-            .setContentTitle("Demo Title")
+            .setContentTitle("Notification Title")
             .setContentText("This is a demo notification")
             .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setAutoCancel(true)
